@@ -1,0 +1,161 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 70px;
+    
+  
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  body
+  {
+      background-image: url('bg.jpeg');
+      background-size: cover;
+     
+  }
+
+ .abc
+ {display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     float: right;
+     padding:0;
+ }
+#home
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin:20px;
+padding:20px;
+}
+
+#home div img
+{
+ margin-top: 50px;
+  padding:30px;
+  height: 250px;
+  width: 250px;
+ border-collapse: separate;
+ 
+}
+
+#home div img:hover
+{
+  background-color: rgb(233, 210, 229);
+  display:inline;
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition:transform 500ms ease-in-out 25ms;
+  padding:3px;
+}
+#inp_n,#inp_nm,#inp_d
+{
+  width: 1000px;
+  height: 60px;
+  margin: 5px;
+ 
+  font-size: 25px;
+  border-width: 2px;
+  border-style:groove;
+  border-color: rgb(33, 53, 70);
+  background: transparent;
+
+}
+#inp_n::placeholder,#inp_nm::placeholder,#inp_f::placeholder
+{
+  color: #111;
+}
+
+#inp_f
+{
+  width: 1000px;
+  height: 200px;
+  margin: 5px;
+ 
+  font-size: 25px;
+  border-width: 2px;
+  border-style:groove;
+  border-color: black;
+  background: transparent;
+}
+#inp_f::placeholder
+{
+  text-align:center;
+  
+}
+
+#inp_book,#btn_f
+{
+  height: 60px;
+  width: 250px;
+
+  font-size: 25px;
+  border-radius: 15px;
+  border-style: none;
+}
+#inp_book:hover,#btn_f:hover
+{
+  background-color: rgb(225, 173, 238);
+}
+input::placeholder
+{
+  font-size: 20px;
+
+
+}
+#quote
+{
+  text-align: center;
+  padding-left: 350px;
+
+
+}
+
+#contact
+{
+  text-align:center;
+  float: inline-start;
+
+  margin-top: 230px;
+  padding-bottom: 50px;
+
+}
+
+#place
+{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+#i1
+{
+  padding-top: 100px;
+  padding-left: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+
